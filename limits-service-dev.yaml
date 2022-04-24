@@ -1,5 +1,9 @@
 server: 
-  port: 8080
+  port: 8081
 limits-service: 
   minimum: 1
   maximum: 111
+
+logging:
+  level:
+    web: DEBUG
